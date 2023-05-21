@@ -39,9 +39,8 @@ def decipher_the_ciphertext(cipher_text_hex):
     return plaintext
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # Step 2: padding Hello World
+    # Step 2: padding "Hello World"
     pd = padding_string("Hello World")
     print(pd)
 
